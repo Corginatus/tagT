@@ -16,15 +16,18 @@ class CreatePostsTable extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->foreignId('image_id')->nullable()->constrained();
-            $table->string('lang');
-            $table->string('industry');
+            $table->string('title');
+//            $table->foreignId('language_id')->constrained();
+            $table->text('language');
+            $table->string('client');
+            $table->date('date');
             $table->string('type');
+            $table->string('industry');
+            $table->string('website');
             $table->string('increase_traffic');
             $table->string('problem');
             $table->string('solution');
-            $table->string('about');
-            $table->string('problems');
-            $table->string('result');
+            $table->text('description');
             $table->timestamps();
         });
     }

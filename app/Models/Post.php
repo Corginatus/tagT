@@ -11,15 +11,17 @@ class Post extends Model
 
     protected $fillable = [
         'image_id',
-        'lang',
+        'title',
+        'language',
+        'client',
+        'website',
+        'description',
         'industry',
         'type',
         'increase_traffic',
         'problem',
         'solution',
-        'about',
-        'problems',
-        'result'
+        'date',
     ];
 
     public function image() {
