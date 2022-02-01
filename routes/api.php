@@ -6,6 +6,8 @@ use App\Http\Controllers\UploadController;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Longman\TelegramBot\Telegram;
+use Telegram\Bot\Api;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,6 +42,16 @@ Route::get('/data/posts', function (Request $request) {
 
 
 Route::get('/data/posts/{id}', function (Request $request, $id) {
-    $coin = Post::find($id);
-    return response($coin);
+    $post = Post::find($id);
+    return response($post);
+});
+
+Route::any('/webhook/5276225450:AAEyY-wK7cr7-MMiV38YrIyvz-jMJgKBVNM', function (Request $request) {
+    $bot_api_key  = '5276225450:AAEyY-wK7cr7-MMiV38YrIyvz-jMJgKBVNM';
+
+    $bot = new Api($bot_api_key);
+    $bot->sendMessage([
+        'chat_id' => '822603467',
+        'text' => 'new user'
+    ]);
 });
