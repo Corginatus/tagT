@@ -14,9 +14,16 @@ class PostResource extends JsonResource
      */
     public function toArray($request)
     {
+        $image = null;
+        try {
+            $image = env('APP_URL').$this->image->path;
+        } catch (\Exception $e) {
+
+        }
+
         return [
             'id' => $this->id,
-            'image' => env('APP_URL').$this->image->path,
+            'image' => $image,
             'title' => $this->title,
             'language' => $this->language,
             'client' => $this->client,
