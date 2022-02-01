@@ -26,6 +26,7 @@ Route::post('/login', [AuthController::class, 'login']);
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::resource('/posts', PostController::class);
+    Route::get('/posts/{id}', [PostController::class, 'show']);
     Route::post('/posts/{id}', [PostController::class, 'update']);
 
 //    Route::get('/data', [AdminController::class, 'getData']);

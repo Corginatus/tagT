@@ -14,7 +14,6 @@ class PostController extends Controller
     {
         $posts = Post::all();
         for ($i = 0; $i < count($posts) ; $i++) {
-            info(strip_tags($posts[$i]['description']));
             $posts[$i]['description'] = mb_substr(strip_tags($posts[$i]['description']), 0, 20).'...';
         }
         return PostResource::collection($posts);
@@ -65,11 +64,14 @@ class PostController extends Controller
     public function show($id)
     {
         $post = Post::findOrFail($id);
+        info(123);
         return PostResource::make($post);
     }
 
-    public function update(Request $request, Post $post)
+    public function update(Request $request, $id)
     {
+        $post = Post::findOrFail($id);
+
         $validated = $this->validate($request, [
             'title' => ['string', 'nullable'],
             'language' => ['string', 'nullable'],
@@ -92,19 +94,19 @@ class PostController extends Controller
             $image_id = $path->id;
         }
 
-        $post::update([
-            'image_id' => $image_id,
-            'title' => $validated['title'],
-            'language' => $validated['language'],
-            'client' => $validated['client'],
-            'date' => Carbon::parse($validated['date'])->format('Y-m-d'),
-            'type' => $validated['type'],
-            'industry' => $validated['industry'],
-            'website' => $validated['website'],
-            'increase_traffic' => $validated['increase_traffic'],
-            'problem' => $validated['problem'],
-            'solution' => $validated['solution'],
-            'description' => $validated['description'],
+        $post->update([
+            'image_id' => $image_id ?? $post->image_id,
+            'title' => $validated['title'] ?? $post->title,
+            'language' => $validated['language'] ?? $post->language,
+            'client' => $validated['client'] ?? $post->client,
+            'date' => Carbon::parse($validated['date'])->format('Y-m-d') ?? $post->date,
+            'type' => $validated['type'] ?? $post->type,
+            'industry' => $validated['industry'] ?? $post->industry,
+            'website' => $validated['website'] ?? $post->website,
+            'increase_traffic' => $validated['increase_traffic'] ?? $post->increase_traffic,
+            'problem' => $validated['problem'] ?? $post->problem,
+            'solution' => $validated['solution'] ?? $post->solution,
+            'description' => $validated['description'] ?? $post->description,
         ]);
 
         return PostResource::make($post);
