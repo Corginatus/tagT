@@ -21,12 +21,12 @@ class CreatePostsTable extends Migration
             $table->text('language');
             $table->string('client');
             $table->date('date');
-            $table->string('type');
-            $table->string('industry');
-            $table->string('website');
-            $table->string('increase_traffic');
-            $table->string('problem');
-            $table->string('solution');
+            $table->text('type');
+            $table->text('industry');
+            $table->text('website');
+            $table->text('increase_traffic');
+            $table->text('problem');
+            $table->text('solution');
             $table->text('description');
             $table->timestamps();
         });
