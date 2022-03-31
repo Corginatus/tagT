@@ -1410,57 +1410,58 @@
             <div class="container">
                 <div class="row text-center justify-content-center mb-5">
                     <div class="col-xl-7 col-lg-10">
-                        <h2 class="text-primary font-weight-bold">Довольные клиенты</h2>
+                        <h2 class="text-primary font-weight-bold">Our clients</h2>
                     </div>
                 </div>
 
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center">
-                    <div class="col" data-aos="fade-up">
-                        <a href="portfolio.html" class="text-reset">
-                            <div class="card bg-light text-center mb-3 mb-lg-0">
-                                <picture>
-                                    <source srcset="images/ui/project-01.webp" type="image/webp">
-                                    <source srcset="images/ui/project-01.jpg" type="image/jpg">
-                                    <img src="images/ui/project-01.jpg" alt="" class="img-fluid">
-                                </picture>
-                                <div class="card-footer bg-white">
-                                    <h5 class="font-weight-semibold mb-1">Quickpay Invoicing</h5>
-                                    <p class="font-size-sm mb-0">Mobile App</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col" data-aos="fade-up" data-aos-delay="50">
-                        <a href="portfolio.html" class="text-reset">
-                            <div class="card bg-light text-center mb-3 mb-lg-0">
-                                <picture>
-                                    <source srcset="images/ui/project-02.webp" type="image/webp">
-                                    <source srcset="images/ui/project-02.jpg" type="image/jpg">
-                                    <img src="images/ui/project-02.jpg" alt="" class="img-fluid">
-                                </picture>
-                                <div class="card-footer bg-white">
-                                    <h5 class="font-weight-semibold mb-1">Ask Earth Redesign</h5>
-                                    <p class="font-size-sm mb-0">Website</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col" data-aos="fade-up" data-aos-delay="100">
-                        <a href="portfolio.html" class="text-reset">
-                            <div class="card bg-light text-center">
-                                <picture>
-                                    <source srcset="images/ui/project-03.webp" type="image/webp">
-                                    <source srcset="images/ui/project-03.jpg" type="image/jpg">
-                                    <img src="images/ui/project-03.jpg" alt="" class="img-fluid">
-                                </picture>
-                                <div class="card-footer bg-white">
-                                    <h5 class="font-weight-semibold mb-1">Boom Illustrations</h5>
-                                    <p class="font-size-sm mb-0">Mobile App</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                @include('include.cases', ['cases' => $cases])
+{{--                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center">--}}
+{{--                    <div class="col" data-aos="fade-up">--}}
+{{--                        <a href="portfolio.html" class="text-reset">--}}
+{{--                            <div class="card bg-light text-center mb-3 mb-lg-0">--}}
+{{--                                <picture>--}}
+{{--                                    <source srcset="images/ui/project-01.webp" type="image/webp">--}}
+{{--                                    <source srcset="images/ui/project-01.jpg" type="image/jpg">--}}
+{{--                                    <img src="images/ui/project-01.jpg" alt="" class="img-fluid">--}}
+{{--                                </picture>--}}
+{{--                                <div class="card-footer bg-white">--}}
+{{--                                    <h5 class="font-weight-semibold mb-1">Quickpay Invoicing</h5>--}}
+{{--                                    <p class="font-size-sm mb-0">Mobile App</p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col" data-aos="fade-up" data-aos-delay="50">--}}
+{{--                        <a href="portfolio.html" class="text-reset">--}}
+{{--                            <div class="card bg-light text-center mb-3 mb-lg-0">--}}
+{{--                                <picture>--}}
+{{--                                    <source srcset="images/ui/project-02.webp" type="image/webp">--}}
+{{--                                    <source srcset="images/ui/project-02.jpg" type="image/jpg">--}}
+{{--                                    <img src="images/ui/project-02.jpg" alt="" class="img-fluid">--}}
+{{--                                </picture>--}}
+{{--                                <div class="card-footer bg-white">--}}
+{{--                                    <h5 class="font-weight-semibold mb-1">Ask Earth Redesign</h5>--}}
+{{--                                    <p class="font-size-sm mb-0">Website</p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                    <div class="col" data-aos="fade-up" data-aos-delay="100">--}}
+{{--                        <a href="portfolio.html" class="text-reset">--}}
+{{--                            <div class="card bg-light text-center">--}}
+{{--                                <picture>--}}
+{{--                                    <source srcset="images/ui/project-03.webp" type="image/webp">--}}
+{{--                                    <source srcset="images/ui/project-03.jpg" type="image/jpg">--}}
+{{--                                    <img src="images/ui/project-03.jpg" alt="" class="img-fluid">--}}
+{{--                                </picture>--}}
+{{--                                <div class="card-footer bg-white">--}}
+{{--                                    <h5 class="font-weight-semibold mb-1">Boom Illustrations</h5>--}}
+{{--                                    <p class="font-size-sm mb-0">Mobile App</p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
                 <!-- <div class="row text-center mt-5">
                     <div class="col" data-aos="fade-up">

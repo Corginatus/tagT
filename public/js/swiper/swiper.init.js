@@ -1,4 +1,4 @@
-/* 
+/*
 
 Theme Name: Favland - SaaS & Software HTML5 Template
 Author: uichamp
@@ -193,7 +193,7 @@ Copyright 2020 uichamp.com
     // UPCOMING EVENT CAROUSEL
     Favland.clientCcarouselSingle = function () {
         var clientCcarouselSingle = new Swiper('.client-carousel-single', {
-            slidesPerView: 1,
+            slidesPerView: 3,
             spaceBetween: 30,
             autoplay: {
                 delay: 2500,
@@ -211,7 +211,7 @@ Copyright 2020 uichamp.com
 
     };
 
-    
+
 
     $document.ready(function () {
         Favland.blogCarousel();
