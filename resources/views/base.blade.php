@@ -6,10 +6,10 @@
         <!-- Metatags -->
         <meta charset=utf-8>
         <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-        <meta name=description content="Favland - SaaS & Software HTML5 Template">
+        <meta name=description content="Tag">
         <meta name=keywords content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, start-up, parallax, masonry">
         <meta name=author content="uichamp.com">
-        <title>Product Landing :: Favland - SaaS & Software HTML5 Template</title>
+        <title>Tag</title>
 
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
