@@ -22,12 +22,12 @@
                             <div class="col-md-6 col-lg-4">
                                 <div class="row">
                                     <div class="col-sm-6 col-md-12 mb-4">
-                                        <p class="text-light font-size-sm mb-2"><i class="icon-user"></i> Client Name
+                                        <p class="text-light font-size-sm mb-2"><i class="icon-user"></i> Клиент
                                         </p>
                                         <h6 class="font-weight-semibold mb-0">{{ $case->client }}</h6>
                                     </div>
                                     <div class="col-sm-6 col-md-12 mb-4 mb-lg-0">
-                                        <p class="text-light font-size-sm mb-2"><i class="icon-package"></i> Industry
+                                        <p class="text-light font-size-sm mb-2"><i class="icon-package"></i> Индустрия
                                         </p>
                                         <h6 class="font-weight-semibold mb-0">{{ $case->industry }}</h6>
                                     </div>
@@ -37,11 +37,11 @@
                             <div class="col-md-6 col-lg-4">
                                 <div class="row">
                                     <div class="col-sm-6 col-md-12 mb-4">
-                                        <p class="text-light font-size-sm mb-2"><i class="icon-calendar"></i> Date</p>
+                                        <p class="text-light font-size-sm mb-2"><i class="icon-calendar"></i> Дата</p>
                                         <h6 class="font-weight-semibold mb-0">{{ $case->date }}</h6>
                                     </div>
                                     <div class="col-sm-6 col-md-12 mb-4 mb-lg-0">
-                                        <p class="text-light font-size-sm mb-2"><i class="icon-globe"></i> Website</p>
+                                        <p class="text-light font-size-sm mb-2"><i class="icon-globe"></i> Сайт</p>
                                         <h6 class="font-weight-semibold mb-0">{{ $case->website }}</h6>
                                     </div>
                                 </div>
@@ -50,12 +50,12 @@
                             <div class="col-12 col-lg-4">
                                 <div class="row">
                                     <div class="col-sm-6 col-lg-12 mb-4">
-                                        <p class="text-light font-size-sm mb-2"><i class="icon-users"></i> Type</p>
+                                        <p class="text-light font-size-sm mb-2"><i class="icon-users"></i> Тип</p>
                                         <h6 class="font-weight-semibold mb-0">{{ $case->type }}</h6>
                                     </div>
                                     <div class="col-sm-6 col-lg-12 mb-lg-0">
                                         <p class="text-light font-size-sm mb-2"><i class="icon-trending-up"></i>
-                                            Increase traffic</p>
+                                            Прилив трафика</p>
                                         <h6 class="font-weight-semibold mb-0 text-warning">{{ $case->increase_traffic }}</h6>
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@
                                         </g>
                                     </svg>
                                 </div>
-                                <h5 class="font-weight-bold">Problem</h5>
+                                <h5 class="font-weight-bold">Задача</h5>
                                 <p class="text-muted font-size-sm">{{ $case->problem }}</p>
                                 {{--                                <a href="" class="link-unstyled text-primary font-weight-medium d-inline-block">Read More -></a>--}}
                             </div>
@@ -113,7 +113,7 @@
                                 </div>
 
 
-                                <h5 class="font-weight-bold">Solution</h5>
+                                <h5 class="font-weight-bold">Решение</h5>
                                 <p class="text-muted font-size-sm">{{ $case->solution }}</p>
                                 {{--                                <a href="" class="link-unstyled text-primary font-weight-medium d-inline-block">Read More -></a>--}}
                             </div>
@@ -136,4 +136,8 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.querySelector('article').querySelectorAll('img').forEach((img) => {console.log(img.className='img-fluid')})
+    </script>
 @endsection
