@@ -34,6 +34,6 @@ class PageController extends Controller
         $lang = $request->cookie('lang') ?? 'ru';
 
         $case = Post::find($id);
-        return view('ru.case', ['lang' => $lang, 'case' => $case]);
+        return view($lang.'.case', ['lang' => $lang, 'case' => $case]);
     }
 }
