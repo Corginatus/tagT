@@ -3,7 +3,7 @@
         <div class="row justify-content-lg-between pb-5">
             <div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0">
                 <a href="#" class="d-block pb-2">
-                    <img class="img-fluid" src="./images/logos/logo.svg" alt="logo" width="120px">
+                    <img class="img-fluid" src="/images/logos/logo.svg" alt="logo" width="120px">
                 </a>
 
                 <p class="font-size-xs" style="color: black;">Leader in digital marketing for fashion brands.</p>
