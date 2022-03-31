@@ -46,7 +46,7 @@
         <div class="pt-5">
             <div class="row justify-content-lg-center text-lg-center">
                 <div class="col-xl-8 col-lg-9">
-                    <p class="small "><a href="https://tag.izvrak.xyz ">©</a> Tag. 2013-2020.</p>
+                    <p class="small "><a href="/panel">©</a> Tag. 2013-2020.</p>
                 </div>
             </div>
         </div>
