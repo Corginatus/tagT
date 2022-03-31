@@ -16,7 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/language', [PageController::class, 'language'])->name('language');
-Route::get('/case/{id}', function ($id) {
-    $case = \App\Models\Post::find(1);
-    return view('ru.case', ['lang' => 'ru', 'case' => $case]);
-});
+Route::get('/case/{id}', [PageController::class, 'casePage']);

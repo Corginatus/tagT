@@ -29,8 +29,11 @@ class PageController extends Controller
         return redirect('/')->withCookie($cookie);
     }
 
-    public function casePage(int $id)
+    public function casePage(Request $request, int $id)
     {
+        $lang = $request->cookie('lang') ?? 'ru';
 
+        $case = Post::find($id);
+        return view('ru.case', ['lang' => $lang, 'case' => $case]);
     }
 }

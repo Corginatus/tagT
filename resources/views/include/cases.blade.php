@@ -3,7 +3,7 @@
         @foreach($cases as $case)
         <div class="swiper-slide">
             <div class="col" data-aos="fade-up">
-                <a href="portfolio.html" class="text-reset">
+                <a href="/case/{{ $case->id }}" class="text-reset">
                     <div class="card bg-light text-center mb-3 mb-lg-0">
                         <picture>
                             <img src="images/ui/project-01.jpg" alt="" class="img-fluid">
