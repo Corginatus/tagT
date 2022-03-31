@@ -6,7 +6,7 @@
 
 
         <a class="navbar-brand font-weight-semibold" href="/">
-            <img class="img-fluid" src="./images/logos/logo.svg" alt="" width="150px">
+            <img class="img-fluid" src="/images/logos/logo.svg" alt="" width="150px">
         </a>
         <button class="btn btn-primary btn-sm d-lg-none">En</button>
 
