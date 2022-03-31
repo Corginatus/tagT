@@ -6,7 +6,7 @@
             <div class="row justify-content-center text-center">
                 <div class="col-xl-7 col-lg-9">
                     <img class="img-fluid mb-4" src="./images/logos/brand/hubspot.svg" alt="">
-                    <h1 class="font-weight-bold mb-0">Online 70% traffic increase in registrations by adding Favland</h1>
+                    <h1 class="font-weight-bold mb-0">{{ $case->title }}</h1>
                 </div>
             </div>
         </div>
@@ -23,11 +23,11 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-md-12 mb-4">
                                         <p class="text-light font-size-sm mb-2"><i class="icon-user"></i> Client Name</p>
-                                        <h6 class="font-weight-semibold mb-0">Hubspot Pvt. Ltd.</h6>
+                                        <h6 class="font-weight-semibold mb-0">{{ $case->client }}</h6>
                                     </div>
                                     <div class="col-sm-6 col-md-12 mb-4 mb-lg-0">
                                         <p class="text-light font-size-sm mb-2"><i class="icon-package"></i> Industry</p>
-                                        <h6 class="font-weight-semibold mb-0">Branding</h6>
+                                        <h6 class="font-weight-semibold mb-0">{{ $case->industry }}</h6>
                                     </div>
                                 </div>
                             </div>
@@ -36,11 +36,11 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-md-12 mb-4">
                                         <p class="text-light font-size-sm mb-2"><i class="icon-calendar"></i> Date</p>
-                                        <h6 class="font-weight-semibold mb-0">12/10/2020</h6>
+                                        <h6 class="font-weight-semibold mb-0">{{ $case->date }}</h6>
                                     </div>
                                     <div class="col-sm-6 col-md-12 mb-4 mb-lg-0">
                                         <p class="text-light font-size-sm mb-2"><i class="icon-globe"></i> Website</p>
-                                        <h6 class="font-weight-semibold mb-0">www.uichamp.com</h6>
+                                        <h6 class="font-weight-semibold mb-0">{{ $case->website }}</h6>
                                     </div>
                                 </div>
                             </div>
@@ -49,11 +49,11 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-lg-12 mb-4">
                                         <p class="text-light font-size-sm mb-2"><i class="icon-users"></i> Type</p>
-                                        <h6 class="font-weight-semibold mb-0">B2B</h6>
+                                        <h6 class="font-weight-semibold mb-0">{{ $case->type }}</h6>
                                     </div>
                                     <div class="col-sm-6 col-lg-12 mb-lg-0">
                                         <p class="text-light font-size-sm mb-2"><i class="icon-trending-up"></i> Increase traffic</p>
-                                        <h6 class="font-weight-semibold mb-0 text-warning">+71%</h6>
+                                        <h6 class="font-weight-semibold mb-0 text-warning">{{ $case->increase_traffic }}</h6>
                                     </div>
                                 </div>
                             </div>
@@ -82,8 +82,8 @@
                                     </svg>
                                 </div>
                                 <h5 class="font-weight-bold">Problem</h5>
-                                <p class="text-muted font-size-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident officiis reiciendis ipsum quisquam, eaque repudiandae.</p>
-                                <a href="" class="link-unstyled text-primary font-weight-medium d-inline-block">Read More -></a>
+                                <p class="text-muted font-size-sm">{{ $case->problem }}</p>
+{{--                                <a href="" class="link-unstyled text-primary font-weight-medium d-inline-block">Read More -></a>--}}
                             </div>
                         </div>
 
@@ -101,8 +101,8 @@
 
 
                                 <h5 class="font-weight-bold">Solution</h5>
-                                <p class="text-muted font-size-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus exercitationem amet inventore aperiam ducimus dolores commodi.</p>
-                                <a href="" class="link-unstyled text-primary font-weight-medium d-inline-block">Read More -></a>
+                                <p class="text-muted font-size-sm">{{ $case->solution }}</p>
+{{--                                <a href="" class="link-unstyled text-primary font-weight-medium d-inline-block">Read More -></a>--}}
                             </div>
                         </div>
                     </div>
@@ -117,60 +117,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-9">
                     <article>
-                        <h5 class="font-weight-semibold mt-0">About Company</h5>
-                        <p>If you would like to measure a successful life in 2020 and beyond, you would like to adopt a replacement set of skills. Hell, you’ll got to learn these skills just to stay up. Society is fragmenting into two parallel realities. In one reality, you've got infinite upside and opportunity. within the other reality, you’ll still see the gap between your standard of living and people at the highest grow more and more. In one reality, you've got span infinite upside and opportunity. within the other reality, you’ll still see the gap between your standard of living and people at the highest grow more and more. ✨</p>
-
-                        <picture>
-                            <source srcset="./images/blog/blog-13.webp" type="image/webp">
-                            <source srcset="./images/blog/blog-13.jpg" type="image/jpg">
-                            <img src="./images/blog/blog-13.jpg" alt="" class="img-fluid rounded">
-                        </picture>
-
-                        <h5 class="font-weight-semibold">Problems</h5>
-
-                        <ul class="list-unstyled ml-4 my-5">
-                            <li>
-                                🚨 <strong>Data Engineering Leadership Group : </strong>The next step was to align on a common set of architecture principles and best practices to guide our work.
-                            </li>
-                            <li>
-                                👋 <strong>Data Engineering Role : </strong>Based on this learning, it was clear that our future data model should be designed thoughtfully and avoid the pitfalls of centralized ownership.
-                            </li>
-                            <li>
-                                🧾 <strong>Lack of mentors : </strong>They have been developing great products by avoiding the traditional PRD approach. How this has helped them can clearly be seen in the success of their products.
-                            </li>
-                            <li>
-                                💸 <strong>Streaming video platforms : </strong>Tables must be normalized (within reason) and rely on as few dependencies as possible. Minerva does the heavy lifting to join across data models.
-                            </li>
-                            <li>
-                                🚀 <strong>The Data Quality Initiative : </strong>Tables describing a similar domain are grouped into Subject Areas. Each Subject Area must have a single owner that naturally aligns with the scope of a single team. Ownership should be obvious.
-                            </li>
-                        </ul>
-
-                        <div class="form-row mb-5">
-                            <div class="col">
-                                <picture>
-                                    <source srcset="./images/blog/blog-14.webp" type="image/webp">
-                                    <source srcset="./images/blog/blog-14.jpg" type="image/jpg">
-                                    <img src="./images/blog/blog-14.jpg" alt="" class="img-fluid rounded shadow-smooth-3">
-                                </picture>
-                            </div>
-                            <div class="col">
-                                <picture>
-                                    <source srcset="./images/blog/blog-15.webp" type="image/webp">
-                                    <source srcset="./images/blog/blog-15.jpg" type="image/jpg">
-                                    <img src="./images/blog/blog-15.jpg" alt="" class="img-fluid rounded shadow-smooth-3">
-                                </picture>
-                            </div>
-                        </div>
-
-
-                        <p>If you would like to measure a successful life in 2020 and beyond, you would like to adopt a replacement set of skills. Hell, you’ll got to learn these skills just to stay up. Society is fragmenting into two parallel realities. In one reality, you've got <mark> infinite upside and opportunity</mark>. within the other reality, you’ll still see the gap between your standard of living and people at the highest grow more and more. In one reality, you've got span infinite upside and opportunity. within the other reality, you’ll still see the gap between your standard of living and people at the highest grow more and more. ✨</p>
-
-                        <p class="blockquote border-primary pl-4 mb-5">
-                            "People who succeed have momentum. The more they succeed, the more they want to succeed and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy."
-                        </p>
-
-                        <p class="mb-0">If you would like to measure a successful life in 2020 and beyond, you would like to adopt a replacement set of skills. Hell, you’ll got to learn these skills just to stay up. Society is fragmenting into <a href="" class="link">two parallel realities</a>.  </p>
+                        {{ $case->description }}
                     </article>
                 </div>
             </div>
