@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PostResource;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
@@ -13,7 +14,7 @@ class PageController extends Controller
         $lang = $request->cookie('lang') ?? 'ru';
         $cases = Post::where('language', $lang)->get();
 
-        return view($lang . '.index', ['lang' => $lang, 'cases' => $cases]);
+        return view($lang . '.index', ['lang' => $lang, 'cases' => PostResource::collection($cases)]);
     }
 
     public function language(Request $request)
