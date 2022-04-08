@@ -1,6 +1,5 @@
 <div class="swiper-container client-carousel-single">
     <div class="swiper-wrapper">
-        {{ json_encode($cases) }}
         @foreach($cases as $case)
         <div class="swiper-slide">
             <div class="col" data-aos="fade-up">
