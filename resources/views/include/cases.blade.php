@@ -8,6 +8,8 @@
                         <picture>
                             @if (isset($case->image))
                                 <img src="{{ $case->image->path  }}" alt="" class="img-fluid">
+                            @else
+                                <img src="/images/media/media-11.jpg" alt="" class="img-fluid">
                             @endif
                         </picture>
                         <div class="card-footer bg-white">
