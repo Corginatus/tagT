@@ -1,12 +1,12 @@
 <div class="swiper-container client-carousel-single">
     <div class="swiper-wrapper">
-        @foreach(json_decode($cases) as $case)
+        @foreach($cases as $case)
         <div class="swiper-slide">
             <div class="col" data-aos="fade-up">
                 <a href="/case/{{ $case->id }}" class="text-reset">
                     <div class="card bg-light text-center mb-3 mb-lg-0">
                         <picture>
-                            <img src="{{ $case->image  }}" alt="" class="img-fluid">
+                            <img src="{{ \App\Http\Resources\PostResource::make($case)->image  }}" alt="" class="img-fluid">
                         </picture>
                         <div class="card-footer bg-white">
                             <h5 class="font-weight-semibold mb-1">{{ $case->client  }}</h5>
