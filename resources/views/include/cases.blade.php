@@ -1,6 +1,6 @@
 <div class="swiper-container client-carousel-single">
     <div class="swiper-wrapper">
-        @foreach($cases as $case)
+        @foreach(json_decode($cases) as $case)
         <div class="swiper-slide">
             <div class="col" data-aos="fade-up">
                 <a href="/case/{{ $case->id }}" class="text-reset">
