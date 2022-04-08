@@ -6,7 +6,9 @@
                 <a href="/case/{{ $case->id }}" class="text-reset">
                     <div class="card bg-light text-center mb-3 mb-lg-0">
                         <picture>
-                            <img src="{{ $case->image  }}" alt="" class="img-fluid">
+                            @if (isset($case->image))
+                                <img src="{{ $case->image->path  }}" alt="" class="img-fluid">
+                            @endif
                         </picture>
                         <div class="card-footer bg-white">
                             <h5 class="font-weight-semibold mb-1">{{ $case->client  }}</h5>
