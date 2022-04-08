@@ -13,8 +13,8 @@ class PageController extends Controller
     {
         $lang = $request->cookie('lang') ?? 'ru';
         $cases = Post::where('language', $lang)->get();
-            echo gettype(PostResource::collection($cases));
-//        return view($lang . '.index', ['lang' => $lang, 'cases' => PostResource::collection($cases)]);
+
+        return view($lang . '.index', ['lang' => $lang, 'cases' => PostResource::collection($cases)]);
     }
 
     public function language(Request $request)
