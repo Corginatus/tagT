@@ -7,9 +7,9 @@
                     <div class="card bg-light text-center mb-3 mb-lg-0">
                         <picture>
                             @if (isset($case->image))
-                                <img src="{{ $case->image->path  }}" alt="" class="img-fluid">
+                                <img src="{{ $case->image->path  }}" alt="" class="img-card">
                             @else
-                                <img src="/images/media/media-11.jpg" alt="" class="img-fluid">
+                                <img src="/images/media/media-11.jpg" alt="" class="img-card">
                             @endif
                         </picture>
                         <div class="card-footer bg-white">

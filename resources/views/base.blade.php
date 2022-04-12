@@ -22,6 +22,7 @@
 
         <!-- Stylesheet -->
         <link rel="stylesheet" href="/fonts/favland.min.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link href="/css/theme.min.css" rel=stylesheet>
     </head>
 
