@@ -102,7 +102,7 @@ class PostController extends Controller
             'date' => Carbon::parse($validated['date'])->format('Y-m-d') ?? $post->date,
             'type' => $validated['type'] ?? $post->type,
             'industry' => $validated['industry'] ?? $post->industry,
-            'website' => $validated['website'] ?? $post->website,
+            'website' => $validated['website'],
             'increase_traffic' => $validated['increase_traffic'] ?? $post->increase_traffic,
             'problem' => $validated['problem'] ?? $post->problem,
             'solution' => $validated['solution'] ?? $post->solution,
