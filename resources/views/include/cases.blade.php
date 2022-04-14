@@ -2,7 +2,7 @@
     <div class="swiper-wrapper">
         @foreach($cases as $case)
         <div class="swiper-slide">
-            <div class="col" data-aos="fade-up">
+            <div class="" data-aos="fade-up">
                 <a href="/case/{{ $case->id }}" class="text-reset">
                     <div class="card bg-light text-center mb-3 mb-lg-0">
                         <picture>

@@ -6,7 +6,7 @@
                     <img class="img-fluid " src="/images/logos/logo.svg" alt="logo " width="120px ">
                 </a>
 
-                <p class="font-size-xs " style="color: black; ">Leader in digital marketing for fashion brands.</p>
+                <p class="font-size-xs " style="color: black; ">Leader in digital marketing for Lifestyle, Luxury, Cosmetics, Fashion & Beauty Brands</p>
             </div>
 
             <div class="col-6 col-md-3 col-lg mb-5 mb-lg-0 ">
@@ -45,7 +45,7 @@
         <div class="pt-5">
             <div class="row justify-content-lg-center text-lg-center">
                 <div class="col-xl-8 col-lg-9 ">
-                    <p class="small"><a href="/panel">©</a> Tag. 2013-2020.</p>
+                    <p class="small"><a href="/panel">©</a> Tag 2013-2020</p>
                 </div>
             </div>
         </div>

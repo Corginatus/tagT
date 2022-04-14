@@ -137,6 +137,10 @@
         </div>
     </div>
 
+    @include('en.include.related', ['cases' => $cases])
+
+    @include('en.include.callme')
+
     <script>
         document.querySelector('article').querySelectorAll('img').forEach((img) => {console.log(img.className='img-fluid')})
     </script>

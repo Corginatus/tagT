@@ -55,7 +55,7 @@
                                     </div>
                                     <div class="col-sm-6 col-lg-12 mb-lg-0">
                                         <p class="text-light font-size-sm mb-2"><i class="icon-trending-up"></i>
-                                            Прилив трафика</p>
+                                            Рост трафика</p>
                                         <h6 class="font-weight-semibold mb-0 text-warning">{{ $case->increase_traffic }}</h6>
                                     </div>
                                 </div>
@@ -136,6 +136,10 @@
             </div>
         </div>
     </div>
+
+    @include('ru.include.related', ['cases' => $cases])
+
+    @include('ru.include.callme')
 
     <script>
         document.querySelector('article').querySelectorAll('img').forEach((img) => {console.log(img.className='img-fluid')})
