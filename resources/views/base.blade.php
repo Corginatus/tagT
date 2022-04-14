@@ -9,7 +9,7 @@
         <meta name=description content="Tag">
         <meta name=keywords content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, start-up, parallax, masonry">
         <meta name=author content="uichamp.com">
-        <title>Tag: Leader in digital marketing for Lifestyle, Luxury, Cosmetics, Fashion & Beauty Brands</title>
+        <title>TAG DIGITAL - Leader in digital marketing for  Fashion, Lifestyle, Luxury, Cosmetics & Beauty Brands</title>
 
         <!-- Favicons -->
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
