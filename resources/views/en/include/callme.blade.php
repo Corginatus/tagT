@@ -14,7 +14,7 @@
                     <a href="https://calendly.com/eurovc"
                        class="btn btn-white waves-effect d-block d-md-inline-block mb-2 mb-md-0"
                        role="button">Schedule a call</a>
-                    <a href="#contact-us" class="btn btn-primary waves-effect d-block d-md-inline-block"
+                    <a href="/#contact-us" class="btn btn-primary waves-effect d-block d-md-inline-block"
                        role="button">Get a Quote</a>
                 </div>
             </div>

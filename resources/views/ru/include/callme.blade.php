@@ -11,7 +11,7 @@
                 </div>
                 <div class="col text-lg-right">
                     <a href="https://calendly.com/eurovc" class="btn btn-white waves-effect d-block d-md-inline-block mb-2 mb-md-0" role="button">Запланировать звонок</a>
-                    <a href="#contact-us" class="btn btn-primary waves-effect d-block d-md-inline-block" role="button">Заполнить форму</a>
+                    <a href="/#contact-us" class="btn btn-primary waves-effect d-block d-md-inline-block" role="button">Заполнить форму</a>
                 </div>
             </div>
         </div>
