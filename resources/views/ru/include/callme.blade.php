@@ -1,4 +1,4 @@
-<section class="py-6 bg-light-primary">
+<section class="py-6 bg-white">
     <div class="container">
         <div class="card light-shadow p-4 p-lg-6" data-aos="zoom-in">
             <div class="row row-cols-1 row-cols-lg-2 align-items-center">
