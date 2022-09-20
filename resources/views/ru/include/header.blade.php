@@ -8,7 +8,8 @@
         <a class="navbar-brand font-weight-semibold" href="/">
             <img class="img-fluid" src="/images/logos/logo.svg" alt="" width="150px">
         </a>
-        <button class="btn btn-primary btn-sm d-lg-none">En</button>
+        <button class="btn btn-primary btn-sm d-lg-none">EN</button>
+        <button class="btn btn-primary btn-sm d-lg-none">SR</button>
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,7 +60,8 @@
                 </li>
             </ul>
 
-            <a href="/language" class="btn btn-primary btn-sm d-none d-lg-block">ENG</a>
+            <a href="{{ route('language') }}?lang=en" class="btn btn-primary btn-sm d-none d-lg-block mr-1">ENG</a>
+            <a href="{{ route('language') }}?lang=sr" class="btn btn-primary btn-sm d-none d-lg-block">SRB</a>
         </div>
     </div>
 </nav>

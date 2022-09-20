@@ -1,7 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light py-2 py-lg-4">
     <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -10,58 +9,59 @@
             <img class="img-fluid" src="/images/logos/logo.svg" alt="" width="150px">
         </a>
         <button class="btn btn-primary btn-sm d-lg-none">EN</button>
-        <button class="btn btn-primary btn-sm d-lg-none">SR</button>
+        <button class="btn btn-primary btn-sm d-lg-none">RU</button>
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
             <div class="p-3 border-bottom sticky-top bg-white d-block d-lg-none">
                 <h5 class="font-weight-semibold mb-0">Menu</h5>
-                <button class="navbar-toggler navbar-closer d-lg-none" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="true" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-closer d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                     <i class="icon-x"></i>
                 </button>
             </div>
 
             <ul class="navbar-nav mx-auto">
+
+
                 <li class="nav-item dropdown">
                     <a class="nav-link font-weight-semibold" href="#" style="color: #00245E">
-                        What we do
+
+                        Šta ćemo da radimo
                     </a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link font-weight-semibold" href="#" style="color: #00245E">
 
-                        How we work
+                        Kako radimo
                     </a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link font-weight-semibold" href="#" style="color: #00245E">
 
-                        Why it’s so cool
+                        Zašto je to tako kul
                     </a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link font-weight-semibold" href="#" style="color: #00245E">
 
-                        How much
+                        Koliko
                     </a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link font-weight-semibold" href="#" style="color: #00245E">
 
-                        How to order
+                        Kako poručiti
                     </a>
                 </li>
             </ul>
 
-            <a href="{{ route('language') }}?lang=ru" class="btn btn-primary btn-sm d-none d-lg-block mr-1">RUS</a>
-            <a href="{{ route('language') }}?lang=sr" class="btn btn-primary btn-sm d-none d-lg-block">SRB</a>
+            <a href="{{ route('language') }}?lang=en" class="btn btn-primary btn-sm d-none d-lg-block mr-1">ENG</a>
+            <a href="{{ route('language') }}?lang=ru" class="btn btn-primary btn-sm d-none d-lg-block">RUS</a>
         </div>
     </div>
 </nav>

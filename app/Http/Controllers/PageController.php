@@ -19,13 +19,7 @@ class PageController extends Controller
 
     public function language(Request $request)
     {
-        $lang = $request->cookie('lang');
-
-        if ($lang == "ru") {
-            $cookie = cookie('lang', 'en', 3600*3600*3600);
-        } else {
-            $cookie = cookie('lang', 'ru', 3600*3600*3600);
-        }
+        $cookie = cookie('lang', $request->query('lang') ?? 'en', 3600*3600*3600);
 
         return redirect('/')->withCookie($cookie);
     }
