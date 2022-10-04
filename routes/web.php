@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/language', [PageController::class, 'language'])->name('language');
 Route::get('/case/{id}', [PageController::class, 'casePage']);
+Route::prefix('panel')->group(function () {
+    Route::get('{vue_capture?}', function () {
+        return view('admin.index');
+    })->where('vue_capture', '[\/\w\.-]*');
+});

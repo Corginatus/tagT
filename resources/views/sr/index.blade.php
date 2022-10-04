@@ -117,7 +117,7 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-6">
                     <div class="col-xl-7 col-lg-10">
-                        <h2 class="font-weight-bold text-primary">We help in</h2>
+                        <h2 class="font-weight-bold text-primary">Pomažemo u</h2>
                     </div>
                 </div>
 
@@ -140,29 +140,29 @@
                             </li>
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link" id="featureFourTab" data-toggle="tab" href="#featureFour"
-                                   role="tab">Targeted <br class="d-none d-sm-block">Advertising <br
-                                        class="d-none d-sm-block">Campaigns </a>
+                                   role="tab">Ciljane <br class="d-none d-sm-block">reklamne <br
+                                        class="d-none d-sm-block">kampanje </a>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link" id="featureFiveTab" data-toggle="tab" href="#featureFive"
-                                   role="tab">Visual <br class="d-none d-sm-block">Design</a>
+                                   role="tab">Vizuelni <br class="d-none d-sm-block">dizajn</a>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="featureSixTab" data-toggle="tab" href="#featureSix" role="tab">Bloggers
-                                    and <br class="d-none d-sm-block">Opinion <br
-                                        class="d-none d-sm-block">Leaders </a>
+                                <a class="nav-link" id="featureSixTab" data-toggle="tab" href="#featureSix" role="tab">Blogeri
+                                    i <br class="d-none d-sm-block">lideri <br
+                                        class="d-none d-sm-block">mišljenja </a>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link" id="featureSevenTab" data-toggle="tab" href="#featureSeven"
-                                   role="tab">Viral <br class="d-none d-sm-block">Marketing</a>
+                                   role="tab">Viralni <br class="d-none d-sm-block">marketing</a>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link" id="featureEightTab" data-toggle="tab" href="#featureEight"
-                                   role="tab">Web <br class="d-none d-sm-block">Design</a>
+                                   role="tab">Web <br class="d-none d-sm-block">dizajn</a>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link" id="featureNineTab" data-toggle="tab" href="#featureNine"
-                                   role="tab">Understand <br/>the marketing</a>
+                                   role="tab">Razumevanje <br/>marketinga</a>
                             </li>
                         </ul>
                     </div>
@@ -1339,7 +1339,7 @@
             </div>
         </section>
 
-        @include('en.include.callme')
+        @include('sr.include.callme')
 
 
         <section class="py-6">
@@ -1409,10 +1409,10 @@
                                     </div>
 
                                     <div class="media-body">
-                                        <h4 class="font-weight-bold text-primary">Tell us about your project
+                                        <h4 class="font-weight-bold text-primary">Recite nam nešto o vašem projektu
                                         </h4>
-                                        <p class="text-muted font-size-sm mb-0">Please complete the details below
-                                            and then click on submit and we’ll be in contact</p>
+                                        <p class="text-muted font-size-sm mb-0">Molimo vas da popunite detalje ispod i
+                                            onda kliknete na dugme Prosledi i bićemo u kontaktu</p>
                                     </div>
                                 </div>
                             </div>
@@ -1422,14 +1422,14 @@
                                     <div class="form-row">
                                         <div class="col-md px-2">
                                             <div class="form-group">
-                                                <label for="fullName">Full name</label>
+                                                <label for="fullName">Puno ime</label>
                                                 <input class="form-control" type="text" id="fullName"
                                                        placeholder="Robert Matthews" aria-describedby="fullName">
                                             </div>
                                         </div>
                                         <div class="col-md px-2">
                                             <div class="form-group">
-                                                <label for="phoneNumber">Phone number</label>
+                                                <label for="phoneNumber">Telefonski broj</label>
                                                 <input class="form-control" type="text" id="phoneNumber"
                                                        placeholder="+02 456 4953" aria-describedby="phoneNumber">
                                             </div>
@@ -1438,7 +1438,7 @@
                                     <div class="form-row">
                                         <div class="col-md px-2">
                                             <div class="form-group">
-                                                <label for="emailAddress">Email address</label>
+                                                <label for="emailAddress">E-adresa</label>
                                                 <input class="form-control" type="email" id="emailAddress"
                                                        placeholder="robertmatthews@email.com"
                                                        aria-describedby="emailAddress">
@@ -1446,7 +1446,7 @@
                                         </div>
                                         <div class="col-md px-2">
                                             <div class="form-group">
-                                                <label for="companyName">Company</label>
+                                                <label for="companyName">Kompanija</label>
                                                 <input class="form-control" type="text" id="companyName"
                                                        placeholder="uichamp pvt. ltd." aria-describedby="companyName">
                                             </div>
@@ -1455,7 +1455,7 @@
                                     <div class="form-row">
                                         <div class="col-md px-2">
                                             <div class="form-group">
-                                                <label for="emailAddress">Subject</label>
+                                                <label for="emailAddress">Tema</label>
                                                 <select class="custom-select">
                                                     <option selected>Select a subject</option>
                                                     <option value="1">Audit</option>
@@ -1471,7 +1471,7 @@
                                         </div>
                                         <div class="col-md px-2">
                                             <div class="form-group">
-                                                <label for="companyName">Budget</label>
+                                                <label for="companyName">Budžeta</label>
                                                 <select class="custom-select">
                                                     <option selected>Select your budget</option>
                                                     <option value="1">Below €250</option>
@@ -1485,7 +1485,7 @@
                                     <div class="form-row">
                                         <div class="col-md px-2">
                                             <div class="form-group">
-                                                <label for="projectDetails">Project details</label>
+                                                <label for="projectDetails">Detalji projekta</label>
                                                 <textarea class="form-control"
                                                           placeholder="Describe your project details here..."
                                                           id="projectDetails"
@@ -1495,7 +1495,7 @@
                                     </div>
                                     <div class="form-row">
                                         <div class="col-md px-2">
-                                            <label>Project files</label>
+                                            <label>Datoteke projekta</label>
 
                                             <div class="custom-file">
 
@@ -1507,17 +1507,16 @@
                                     </div>
                                     <div class="form-row mt-5">
                                         <div class="col-md px-2">
-                                            <button type="submit" class="btn btn-primary font-size-sm">Get a
-                                                Quote
+                                            <button type="submit" class="btn btn-primary font-size-sm">Dobijte ponudu
                                             </button>
                                         </div>
                                     </div>
                                     <div class="form-row mt-3">
-                                        <div class="col-md small text-muted">By submitting this form you agree to
-                                            our <a href="" class="link">terms and conditions</a> and our
-                                            <a href="" class="link">Privacy Policy</a>. We will collect your email and
-                                            occasionally email you about products and services. you can unscribe
-                                            anytime.
+                                        <div class="col-md small text-muted">Podnošenjem ovog obrasca slažete se sa
+                                            našim <a href="" class="link">odredbama i uslovima</a> i našom
+                                            <a href="" class="link">Politikom privatnosti</a>. Prikupljaćemo vašu
+                                            e-poštu i povremeno vam slati e-poruke o proizvodima i uslugama. možete da
+                                            se otpišete u bilo koje vreme.
                                         </div>
                                     </div>
                                 </form>

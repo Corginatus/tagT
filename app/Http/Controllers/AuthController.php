@@ -10,13 +10,16 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
+    /**
+     * @throws IncorrectData
+     * @throws AuthenticationException
+     */
     public function login(Request $request) {
         $validated = $this->validate($request, [
             'email' => ['email', 'required'],
             'password' => ['string', 'required'],
         ]);
 
-        info($validated['email']);
         $user = User::where('email', $validated['email'])->first();
         if ($user && Auth::attempt(['email' => $validated['email'], 'password' => $validated['password']])) {
             $app_name = $request->header('appName');

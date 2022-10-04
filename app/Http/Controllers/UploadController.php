@@ -7,12 +7,16 @@ use Illuminate\Http\Request;
 
 class UploadController extends Controller
 {
-    public function upload(Request $request) {
+    public function upload(Request $request)
+    {
         if ($request->hasFile('image')) {
             $image = $request->file('image');
             $uploader = new UploadFile();
             $path = $uploader->uploadFile($image);
-            return response(['data'=>env('APP_URL').$path->path]);
+
+            return response(['data' => env('APP_URL') . $path->path]);
         }
+
+        return response();
     }
 }

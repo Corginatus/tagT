@@ -7,8 +7,6 @@
         <meta charset=utf-8>
         <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
         <meta name=description content="Tag">
-        <meta name=keywords content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, start-up, parallax, masonry">
-        <meta name=author content="uichamp.com">
         <title>TAG DIGITAL - Leader in digital marketing for  Fashion, Lifestyle, Luxury, Cosmetics & Beauty Brands</title>
 
         <!-- Favicons -->

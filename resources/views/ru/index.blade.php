@@ -7,8 +7,6 @@
         <div class="container">
             <div class="row align-items-center justify-content-between mb-5 mb-lg-8">
                 <div class="col-xl-5 col-lg-6 mb-5 mb-lg-0 text-center text-lg-left">
-                    <!-- <div class="badge badge-soft-primary badge-pill px-2 py-1 mb-3" data-aos="fade-up">🎉
-                        Version 2.6</div> -->
                     <h2 class="font-weight-bold mb-4" data-aos="fade-up" data-aos-delay="50">Сконцетрируйтесь на важном. Оставьте <span class="text-primary">ВКонтакте</span>, <span class="text-primary">Instagram</span> и <span class="text-primary">Facebook</span> нам <br></h2>
                     <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">Мы знаем, вы давно хотели нанять себе лучшую маркетинговую команду, но боялись представить, сколько это может стоить. С нами вы наконец сможете спокойно заняться творчеством.</p>
 

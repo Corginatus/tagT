@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Resources\PostResource;
 use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Cookie;
 
 class PageController extends Controller
@@ -19,7 +20,8 @@ class PageController extends Controller
 
     public function language(Request $request)
     {
-        $cookie = cookie('lang', $request->query('lang') ?? 'en', 3600*3600*3600);
+        $cookie = cookie('lang', $request->query('lang') ?? 'en', 3600 * 3600 * 3600);
+        App::setLocale('ru');
 
         return redirect('/')->withCookie($cookie);
     }
@@ -31,6 +33,6 @@ class PageController extends Controller
         $case = Post::find($id);
         $cases = Post::where('id', '!=', $id)->where('language', $lang)->get();
 
-        return view($lang.'.case', ['lang' => $lang, 'case' => $case, 'cases' => $cases]);
+        return view($lang . '.case', ['lang' => $lang, 'case' => $case, 'cases' => $cases]);
     }
 }

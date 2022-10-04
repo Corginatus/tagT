@@ -7,11 +7,9 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between mb-5 mb-lg-8">
                     <div class="col-xl-5 col-lg-6 mb-5 mb-lg-0 text-center text-lg-left">
-                        <!-- <div class="badge badge-soft-primary badge-pill px-2 py-1 mb-3" data-aos="fade-up">🎉
-                            Version 2.6</div> -->
-                        <h2 class="font-weight-bold mb-4" data-aos="fade-up" data-aos-delay="50">Focus on whats’s important.<br> Entrust <span class="text-primary">Instagram</span>, <span class="text-primary">Facebook</span> and <span class="text-primary">Youtube
-                                </span> to us <br></h2>
-                        <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">We know you have always wanted to hire the best marketing team, but were afraid to even think of how much it might cost. With our help you will finally be free to get into your creative flow.</p>
+
+                        <h2 class="font-weight-bold mb-4" data-aos="fade-up" data-aos-delay="50">{!! __('messages.intro-h2') !!}</h2>
+                        <p class="lead text-muted" data-aos="fade-up" data-aos-delay="100">{!! __('messages.intro-p') !!}</p>
 
                         <div class="d-flex justify-content-center justify-content-lg-start flex-column flex-sm-row pt-4">
                             <a href="#contact-us" class="btn btn-primary mr-sm-2 mb-2 mb-sm-0 waves-effect" data-aos="fade-up" data-aos-delay="150">Order </a>
@@ -21,7 +19,6 @@
                     <div class="col-lg-6">
                         <div class="hero-img-group-1 text-center">
                             <picture>
-                                <!-- <source srcset="/images/people/other/people-01.webp" type="image/webp"> -->
                                 <source srcset="/images/main/main-section.png" type="image/png">
                                 <img src="/images/main/main-section.png" alt="" class="img-fluid" data-aos="zoom-in">
                             </picture>
@@ -31,7 +28,6 @@
             </div>
         </section>
 
-        <!-- Features -->
         <section class="py-6">
             <div class="container">
                 <div class="row justify-content-center text-center mb-5 mb-lg-7">
@@ -1542,7 +1538,7 @@
                                             <div class="form-group">
                                                 <label for="companyName">Company</label>
                                                 <input class="form-control" type="text" id="companyName"
-                                                       placeholder="uichamp pvt. ltd." aria-describedby="companyName">
+                                                       placeholder="Test Company" aria-describedby="companyName">
                                             </div>
                                         </div>
                                     </div>
