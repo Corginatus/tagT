@@ -1048,9 +1048,8 @@
                                         </svg>
 
                                         <div>
-                                            <h6 class="line-height-16 text-primary">Identify</h6>
-                                            <p class="font-size-sm mb-0">We collect and analyze behavioral data,
-                                                both from your website as well as from various other sources.</p>
+                                            <h6 class="line-height-16 text-primary">Identifying</h6>
+                                            <p class="font-size-sm mb-0">We collect and enrich data on the behavior of each of your clients from all available sources.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1086,11 +1085,9 @@
                                         </svg>
 
                                         <div>
-                                            <h6 class="line-height-16 text-primary">Explore
+                                            <h6 class="line-height-16 text-primary">Studying
                                             </h6>
-                                            <p class="font-size-sm mb-0">We group each user’s data into an
-                                                integrated profile according to channels, behavior and purchase
-                                                history.
+                                            <p class="font-size-sm mb-0">We study the behavior of each of your clients. We study what products were interested in. We group the visitor's data into a single profile by channels, behavior and purchase history.
                                             </p>
                                         </div>
                                     </div>
@@ -1118,8 +1115,7 @@
                                         </svg>
                                         <div>
                                             <h6 class="line-height-16 text-primary">Segmenting</h6>
-                                            <p class="font-size-sm mb-0">We create dynamic segments based on
-                                                behavioral patterns.</p>
+                                            <p class="font-size-sm mb-0">We build dozens of segments of your target audience based on their purchases, habits, preferences and patterns of behavior in the network.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1145,9 +1141,7 @@
                                         <div>
                                             <h6 class="line-height-16 text-primary">Personalize
                                             </h6>
-                                            <p class="font-size-sm mb-0">We create personalized campaigns using
-                                                web-forms, triggered and one-time bulk emails, push notifications
-                                                and live chat.</p>
+                                            <p class="font-size-sm mb-0">We conduct personalized advertising campaigns using all available channels of communication with the client. Email newsletters, push notifications, targeted advertising, chat, reviews. If the client leaves, we catch up with remarketing on other sites and on social networks.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1175,10 +1169,9 @@
 
 
                                         <div>
-                                            <h6 class="line-height-16 text-primary">Analize
+                                            <h6 class="line-height-16 text-primary">Analyzing
                                             </h6>
-                                            <p class="font-size-sm mb-0">We analyze the results in real time and
-                                                upload the data into valuable reports.</p>
+                                            <p class="font-size-sm mb-0">We analyze the results of advertising campaigns, the effectiveness of channels and conduct a cohort analysis, consider the unit economy and decide how to optimally and efficiently use the advertising budget. This allows us, even with minimal budgets, to achieve results comparable to large advertising campaigns of global brands.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1207,12 +1200,9 @@
                                             </g>
                                         </svg>
                                         <div>
-                                            <h6 class="line-height-16 text-primary">Report
+                                            <h6 class="line-height-16 text-primary">Reporting back
                                             </h6>
-                                            <p class="font-size-sm mb-0">We measure the effect in money. With our
-                                                current clients, we do not even discuss Likes, Reposts and other
-                                               "indicators" that SMM beginers like to mesure. We generate reports
-                                                with figures of growth the REVENUE.
+                                            <p class="font-size-sm mb-0">The effect is measured in money. With our current clients, we don't even discuss Likes, Reposts and other "indicators" that SMM developers like to measure against each other. We generate reports with specific figures and discuss revenue growth.
                                             </p>
                                         </div>
                                     </div>

@@ -729,13 +729,13 @@
                                 <div class="col-lg-6 mb-5 mb-lg-0">
                                     <div class="d-flex align-items-center">
                                         <div>
-                                            <p class="text-muted mb-0">You are a talented designer and you don't
-                                                have to understand the intricacies of marketing. But sometimes it is
-                                                important that someone in simple words and examples, explains what's
-                                                what. This is what we are doing in consultations. At the same time,
-                                                we tell you about the latest marketing trends, generate ideas that
-                                                you miss so much, help you draw up budgets and business plans, and
-                                                set up unit economics.</p>
+                                            <p class="text-muted mb-0">Talentovani ste dizajner i ne morate da razumete
+                                                zamršenost marketinga. Ali ponekad je važno da neko objasni jednostavnim
+                                                jezikom, bez pametnih reči, po mogućstvu brojevima i primerima, šta je
+                                                šta. To je ono љto radimo u konsultacijama. Istovremeno, pričamo vam o
+                                                najnovijim marketinškim trendovima, generišemo ideje koje vam toliko
+                                                nedostaju, pomažemo vam da napravite budžete i poslovne planove,
+                                                postavite jediničnu ekonomiju.</p>
                                         </div>
                                     </div>
 
@@ -749,30 +749,27 @@
                                         <div class="card light-shadow p-4 p-lg-6" data-aos="zoom-in">
                                             <div class="lign-items-center">
                                                 <div class="col mb-4 mb-lg-0">
-                                                    <h4 class="font-weight-bold">Audit of the marketing department
+                                                    <h4 class="font-weight-bold">Marketinška revizija
                                                     </h4>
                                                     <div class="row">
                                                         <p class="col text-dark mb-0">
-                                                            It's like a feasibility study, only better! We check all
-                                                            the components and assemblies of your marketing machine,
-                                                            throw away the excess, repair the faulty one, lubricate
-                                                            the working one, gently wipe it with a cloth and run it
-                                                            at full power. If everything is really bad, we can take
-                                                            over all your marketing, for an amount 10 times less
-                                                            than your current marketing budget.
+                                                            To je kao lekarski pregled i studija izvodljivosti, samo
+                                                            bolje! Sve odmotavamo, proveravamo sve komponente i sklopove
+                                                            vaše marketinške mašine, bacamo višak, popravljamo
+                                                            neispravnost, podmazimo radnu, nežno je brišemo krpom i
+                                                            započinjemo punim kapacitetom. Ako su stvari zaista loše,
+                                                            možemo preuzeti sav vaš marketing, za 10 puta manje od vašeg
+                                                            trenutnog marketinškog budžeta.
                                                         </p>
                                                         <p class="col text-dark mb-0">
-                                                            What we check:<br/>
-                                                            — The quality of media-plans and marketing
-                                                            strategies;<br/>
-                                                            — Justification and rationality of spending
-                                                            budgets;<br/>
-                                                            — Optimality of the channels and instruments used;<br/>
-                                                            — The quality of reporting and analytics;<br/>
-                                                            — Quality of marketing materials<br/>
-                                                            — Assessment of the quality of work, the validity of the
-                                                            choice of services and the quality of work with
-                                                            contractors;<br/>
+                                                            Šta proveravamo:<br/>
+                                                            — Kvalitet marketinških planova i strategija;<br/>
+                                                            — Ispravnost i racionalnost budžeta za trošenje;<br/>
+                                                            — Optimalnost kanala i alata koji se koriste;<br/>
+                                                            — Kvalitet izveštavanja i analitike;<br/>
+                                                            — Kvalitet marketinških materijala;<br/>
+                                                            — Procena kvaliteta rada, ispravnost izbora usluga i
+                                                            kvalitet rada kod izvođača radova;<br/>
                                                             <br/>
                                                         </p>
                                                     </div>
@@ -780,7 +777,7 @@
                                                 <div class="">
                                                     <a href="#contact-us"
                                                        class="btn btn-primary waves-effect d-block d-md-inline-block"
-                                                       role="button">Заказать аудит</a>
+                                                       role="button">Naručivanje revizije</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1097,11 +1094,11 @@
                                         </svg>
 
                                         <div>
-                                            <h6 class="line-height-16 text-primary">Istraћimo
+                                            <h6 class="line-height-16 text-primary">Studija
                                             </h6>
-                                            <p class="font-size-sm mb-0">We group each user’s data into an
-                                                integrated profile according to channels, behavior and purchase
-                                                history.
+                                            <p class="font-size-sm mb-0">Proučavamo ponašanje svake od vaših mušterija.
+                                                Proučavamo koje proizvode su nas zanimali. Podatke o posetiocima
+                                                grupišemo u jedan profil po kanalima, ponašanju i istoriji kupovine.
                                             </p>
                                         </div>
                                     </div>
@@ -1129,8 +1126,9 @@
                                         </svg>
                                         <div>
                                             <h6 class="line-height-16 text-primary">Segmentiranje</h6>
-                                            <p class="font-size-sm mb-0">We create dynamic segments based on
-                                                behavioral patterns.</p>
+                                            <p class="font-size-sm mb-0">Gradimo desetine segmenata vaše ciljne publike
+                                                na osnovu njihovih kupovina, navika, preferencija i obrazaca ponašanja
+                                                na mreži.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1156,9 +1154,11 @@
                                         <div>
                                             <h6 class="line-height-16 text-primary">Personalizovanje
                                             </h6>
-                                            <p class="font-size-sm mb-0">We create personalized campaigns using
-                                                web-forms, triggered and one-time bulk emails, push notifications
-                                                and live chat.</p>
+                                            <p class="font-size-sm mb-0">Sprovodimo personalizovane reklamne kampanje
+                                                koristeći sve dostupne kanale komunikacije sa klijentom. E-mail-bilteni,
+                                                push-obaveštenja, ciljano oglašavanje, ćaskanje, recenzije. Ako klijent
+                                                ode, sustiћemo remarketing na drugim sajtovima i na druљtinim
+                                                mreћama.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1186,10 +1186,14 @@
 
 
                                         <div>
-                                            <h6 class="line-height-16 text-primary">Analize
+                                            <h6 class="line-height-16 text-primary">Analizirate
                                             </h6>
-                                            <p class="font-size-sm mb-0">We analyze the results in real time and
-                                                upload the data into valuable reports.</p>
+                                            <p class="font-size-sm mb-0">Analiziramo rezultate reklamnih kampanja,
+                                                efektivnost kanala i sprovodimo kohortnu analizu, izračunavamo jediničnu
+                                                ekonomiju i odlučujemo kako da optimalno i efikasno koristimo budžet za
+                                                oglašavanje. To nam omogućava, čak i sa minimalnim budžetima, da
+                                                postignemo rezultate u poređenju sa velikim reklamnim kampanjama
+                                                svetskih brendova.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -1218,12 +1222,12 @@
                                             </g>
                                         </svg>
                                         <div>
-                                            <h6 class="line-height-16 text-primary">Izveštaj
+                                            <h6 class="line-height-16 text-primary">Izveštavanje
                                             </h6>
-                                            <p class="font-size-sm mb-0">We measure the effect in money. With our
-                                                current clients, we do not even discuss Likes, Reposts and other
-                                                "indicators" that SMM beginers like to mesure. We generate reports
-                                                with figures of growth the REVENUE.
+                                            <p class="font-size-sm mb-0">Efekat se meri novcem. Sa našim trenutnim
+                                                klijentima ne diskutujemo čak ni o Lajkovima, Repostovima i drugim
+                                                "indikatorima" koje SMM-i vole da mere između sebe. Generišemo izveštaje
+                                                sa konkretnim ciframa i razgovaramo o rastu prihoda.
                                             </p>
                                         </div>
                                     </div>
@@ -1346,7 +1350,7 @@
             <div class="container">
                 <div class="row text-center justify-content-center mb-5">
                     <div class="col-xl-7 col-lg-10">
-                        <h2 class="text-primary font-weight-bold">Our clients</h2>
+                        <h2 class="text-primary font-weight-bold">Ostali klijenti</h2>
                     </div>
                 </div>
 
