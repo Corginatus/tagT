@@ -14,7 +14,7 @@ class UploadController extends Controller
             $uploader = new UploadFile();
             $path = $uploader->uploadFile($image);
 
-            return response(['data' => env('APP_URL') . $path->path]);
+            return response(['data' => $path->path]);
         }
 
         return response();
